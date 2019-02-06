@@ -1,0 +1,73 @@
+body {
+    background: #ececec;
+}
+.hidden {
+    display: none;
+}
+.font-500 {
+    font-weight: 500;
+}
+.height {
+    min-height: 35px !important;
+}
+
+.height-row {
+    min-height: 45px !important;
+}
+
+.height-medium {
+    min-height: 60px !important;
+}
+
+.height-70{
+    min-height: 70px !important;
+}
+
+.calendar-input .react-date-picker__wrapper {
+    border:none;
+}
+.no-background {
+    background: none;
+}
+.no-border {
+    border: none;
+}
+.react-date-picker__calendar--above-label {
+    top:100% !important;
+    bottom: 100% !important;
+}
+
+.color-img-invert{
+    filter: invert(100%);
+}
+.no-resuelto {
+    background: #fff;
+}
+.resuelto {
+    background: aquamarine;
+}
+
+.buenasNoticias {
+    display: block;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+.checkboxx label {
+    padding-right: 10px;
+}
+
+.socialnetworks img {
+    width: 20px;
+    margin:0 3px 0 3px;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
